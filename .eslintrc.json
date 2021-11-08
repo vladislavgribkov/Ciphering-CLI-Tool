@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true,
+        "node": true
+    },
+    "extends": ["eslint:recommended", "airbnb", "prettier"],
+    "plugins": ["prettier"],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-useless-constructor": "off",
+        "no-unused-vars": "warn",
+        "no-unused-expressions": "warn",
+        "class-methods-use-this": "off",
+        "no-underscore-dangle": "off"
+    }
+}
